@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assers/css/grid.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .my-column {
+            background-color: rgb(22, 212, 164);
+            height: 260px;
+        }
+
+        h1 {
+            color: #000;
+            line-height: 260px;
+            margin: 0;
+        }
+
+        @media (max-width: 1023px) {
+            .my-colum {
+                margin-top: 16px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="grid wibe container">
+        <div class="row">
+            <div class="col l-4 m-4 c-6">
+                <div class="my-column">
+                    <h1>Column 1</h1>
+                </div>
+            </div>
+
+            <div class="col l-4 m-4 c-6">
+                <div class="my-column">
+                    <h1>Column 2</h1>
+                </div>
+            </div>
+
+            <div class="col l-4 m-4 c-6">
+                <div class="my-column">
+                    <h1>Column 3</h1>
+                </div>
+            </div>
+
+            <div class="col l-4 m-4 c-6">
+                <div class="my-column">
+                    <h1>Column 4</h1>
+                </div>
+            </div>
+
+            <div class="col l-4 m-4 c-6">
+                <div class="my-column">
+                    <h1>Column 5</h1>
+                </div>
+            </div>
+
+            <div class="col l-4 m-4 c-6">
+                <div class="my-column">
+                    <h1>Column 6</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

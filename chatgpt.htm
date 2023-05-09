@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assers/css/chatgpt.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- HTML -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="assers/img/popular posts/dorum.jpg" alt="Story 1">
+      </div>
+      <div class="swiper-slide">
+        <img src="assers/img/popular posts/ipsum.jpg" alt="Story 2">
+      </div>
+      <div class="swiper-slide">
+        <img src="assers/img/popular posts/mingsum.jpg" alt="Story 3">
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <script>
+
+    // JavaScript
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      loop: true
+    });
+
+    var nextButton = document.querySelector('.swiper-button-next');
+    var prevButton = document.querySelector('.swiper-button-prev');
+
+    nextButton.addEventListener('click', function () {
+      swiper.slideNext();
+    });
+
+    prevButton.addEventListener('click', function () {
+      swiper.slidePrev();
+    });
+
+  </script>
+</body>
+
+</html>

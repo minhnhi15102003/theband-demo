@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#all {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-left: 267px;
+}
+
+.float-le {
+    float: left;
+}
+
+.mag-16 {
+    margin: 16px ;
+}
+
+.mb-16 {
+    margin-bottom: 16px ;
+}
+
+.mr-16 {
+    margin-right: 16px ;
+}
+
+.ml-16 {
+    margin-left: 16px ;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.padding {
+    padding: 18px 16px;
+    background: #ddd
+}
+
+.pad16-lt {
+    padding: 0.01em 16px !important;
+}
+
+.pad-16 {
+    padding: 16px !important;
+}
+
+.pad8 {
+    padding: 0 8px;
+}
+
+.none-dots {
+    list-style-type: none ;
+}
+
+.heading-container {
+   text-align: center;
+   padding: 32px 16px;
+}
+
+.heading-container {
+    margin: 10px 0;
+}
+
+.heading-container .heading-myblog{
+    font-size: 36px;
+}
+
+.heading-container .heading-sayhi {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.heading-container .heading-sub-tag{
+    color: #fff;
+    background-color: #000;
+    padding: 2px 8px;
+}
+
+#content {
+    width: 66%;
+    float: left;
+}
+
+.container {
+    box-shadow: 0px 0px 15px 11px #ccc;
+}
+
+
+.content-container .content-title {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+
+.content-container .content-description {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.content-container .description-opasity {
+    opacity: .3;
+}
+
+.content-container .content-text {
+    font-size: 15px;
+    margin: 15px 0 ;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.content-btn {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.content-btn .btn {
+    font-size: 15px;
+    padding: 12px 24px;
+    background: #fff;
+    border:  1px solid #ccc;
+    color: #000;
+    font-weight: 500;
+}
+
+.content-btn .btn:hover {
+    background: #ccc;
+    cursor: pointer;
+
+}
+
+.content-btn .content-comments {
+    float: right;
+    font-size: 15px;
+    padding: 12px 24px;
+}
+
+.content-btn .content-comments .content-comments-tag {
+    background: #000;
+    color: #fff;
+    padding: 0 8px;
+}
+
+#column {
+    float: right;
+    width: 33.3333%;
+}
+
+.card {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 
+    0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.card-content {
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.card-content .card-title {
+    margin: 10px 0;
+    font-size: 23px;
+}
+
+.card-content .card-descrition {
+    margin: 15px 0;
+    font-size: 15px;
+
+}
+.popularpost {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.popularpost .popularpost-title {
+    font-size: 20px;
+    /* margin: 10px 0 ; */
+    font-weight: 400;
+    color: #000;
+}
+
+.popularpost .li-pop {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 22px!important;
+}
+
+.popularpost-li :hover {
+    background: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.popularpost .popularpost-name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.popularpost .popularpost-describe {
+    font-size: 15px;
+}
+
+.tags {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.tags .tags-name {
+    font-weight: 500;
+}
+
+.tags .tags-li {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.tags .tags-li .li-tags-black {
+    background: #000;
+    color: #fff;
+}
+
+.tags .tags-li .li-tags {
+    background: #ddd;
+    color: #000;
+}
+
+#footer {
+    width: 100%;
+    display: inline-block;
+    background: #616161;
+}
+
+.footer-content {
+    margin-top: 32px;
+}
+
+.footer-content .footer-btn-notallowed {
+    padding: 12px 24px;
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+.footer-content .footer-btn {
+    padding: 12px 24px;
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.footer-content .footer-btn:hover {
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+
+#footer .footer-container {
+    margin: 12px 0;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+#footer .footer-btn-radius {
+    padding: 8px 16px;
+    background: #fff;
+    color: #000;    
+    border-radius: 32px;
+    border: 1px solid #fff;
+}
+
+
+#footer .footer-btn-radius a {
+    text-decoration: none;
+    color: #000;
+    font-size: 10px;
+}
+
